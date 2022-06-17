@@ -1,0 +1,174 @@
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 45px;
+    
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) {
+  
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #131f33;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+
+  label.logo {
+    font-size: 18px;
+  }
+
+  header {
+    height: a;
+  }
+
+  header .contain-main {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header .contain-main .contain-picture img {
+    border: 6px solid #fff;
+    padding: 10px;
+  }
+
+  header .contain-main .contain-picture img {
+    width: 90%;
+  }
+
+  header .contain-main h1,
+  h2,
+  h3,
+  p {
+    text-align: left;
+  }
+
+  .self {
+    display: block;
+    color: white;
+    padding-top: 100px;
+  }
+
+  .skill {
+    display: block;
+  }
+
+  .myself {
+    display: block;
+  }
+
+  .skill-bars {
+
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    padding: 50px 0px;
+  }
+
+  .skill-progress {
+    background-color: #152136;
+    margin-top: 50px;
+    padding: 0px;
+  }
+
+  .skill-bars .divide {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .skill-bars .divide2 {
+    width: 100%;
+    margin-top: -55px;
+  }
+
+  .hire-me {
+    padding: 30px;
+    display: block;
+  }
+
+  .hire-me #hire-me-btn {
+    margin: 30px 0px;
+  }
+
+  .slide-container {
+    padding: 80px 0px 80px 50px;
+    width: 600%;
+  }
+
+  .testimonial {
+    padding: 80px 20px;
+    position: relative;
+  }
+
+
+
+  .testimonial .mySlidesTest {
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .contact .contact-form #subject,
+  .contact .contact-form #email,.contact .contact-form #message,.contact .contact-form #fname {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+
+  }
+  .contact h1{
+    font-size:30px;
+  }
+.container{
+  padding:0px;
+}
+  footer,
+  footer .footer-content {
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+  }
+
+  footer .footer-content h1 {
+    margin-right: 0px;
+  }
+
+  footer .footer-content .fa-brands,
+  footer .footer-content .fa-solid {
+    padding: 30px 15px 30px 15px;
+
+  }
+}

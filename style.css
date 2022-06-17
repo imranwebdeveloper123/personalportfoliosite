@@ -1,0 +1,847 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;400&family=Raleway&family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Poppins:wght@200;400;700&family=Raleway:wght@400;900&family=Ubuntu:ital@1&display=swap');
+
+* {
+
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: #131f33;
+  margin:0;
+  padding:0;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Mukta', sans-serif;
+
+}
+
+/*nav design started*/
+nav {
+  background: #131f33;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+  background: #131f33;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+nav ul .fa-brands {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background-color: #6c757d;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
+
+}
+
+/*nav design finish*/
+label.logo {
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*header started*/
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #131f33;
+  width: 100%;
+  height: auto;
+}
+
+header .contain-main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: initial;
+  padding: 50px;
+  margin-top: 80px;
+
+}
+
+header .contain-main .contain-picture img {
+  border: 10px solid #fff;
+  padding: 10px;
+}
+
+header .contain-main .contain-about {
+  padding: 110px 50px 0px 50px;
+}
+
+header .contain-main .contain-about h3 {
+  color: #e1a34c;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+header .contain-main .contain-about h1 {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 55px;
+  padding-top: 25px;
+}
+
+header .contain-main .contain-about p {
+  color: hsla(0, 0%, 100%, 0.815);
+  font-weight: 300;
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+.about-me-btn {
+  padding: 15px 35px 15px 35px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border: 0.5px solid rgba(255, 255, 255, 0.692);
+  background: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-transform: capitalize;
+  transition: 0.5s;
+
+}
+
+.about-me-btn:hover {
+  background-color: #e1a34c;
+  transition: 0.5s;
+}
+
+.name-design {
+  display: flex;
+}
+
+.name-design .line {
+  width: 30px;
+  height: 50px;
+  margin-top: -30px;
+  border-bottom: 2px solid #e1a34c;
+  margin-right: 15px;
+
+}
+
+.name-design-self,
+.name-design-self-skill,
+.name-design-self-testimonial {
+  display: flex;
+}
+
+.name-design-self-skill {
+  align-items: center;
+  justify-content: center;
+}
+
+.name-design-self-skill h4,
+.name-design-self-testimonial h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.name-design-self .line {
+  width: 30px;
+  height: 50px;
+  margin-top: -15px;
+  border-bottom: 2px solid white;
+  margin-right: 15px;
+}
+
+.name-design-self-skill .line {
+  width: 20px;
+  height: 50px;
+  margin-top: -45px;
+  border-bottom: 2px solid #e1a34c;
+  margin-right: 15px;
+}
+
+/*header design finish*/
+/*------------------------*/
+/*self introduce desgin start*/
+.self {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 100px 55px 55px 55px;
+  position:relative;
+
+
+  
+}
+
+.myself {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  margin-top: -50px;
+  
+}
+
+.myself h2,
+.skill h2 {
+  font-weight: bold;
+  font-size: 38px;
+  text-transform: capitalize;
+  padding: 15px 25px 15px 0px;
+}
+
+.myself p,
+.skill p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px;
+  opacity: 0.5;
+}
+
+.skill {
+
+ 
+  display: flex;
+  align-items: left;
+}
+
+.skill .article li {
+  line-height: 30px;
+  opacity: 0.5;
+  padding-left: 20px;
+}
+
+/*introduce section finish*/
+/*************************************/
+/*skill progress design start*/
+
+.skill-progress {
+  background-color: #152136;
+  padding: 50px;
+}
+
+.skill-progress h1,
+.services h1,
+.portofolio h1,
+.contact h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 58px;
+  padding: 20 30px 30px 30px;
+}
+
+.skill-bars {
+  padding: 25px 30px;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+}
+
+.skill-bars .divide {
+  width: 50%;
+  padding: 30px;
+}
+
+.skill-bars .bar {
+  margin: 20px 0;
+}
+
+.skill-bars .bar:first-child {
+  margin-top: 0px;
+}
+
+.skill-bars .bar .info {
+  margin-bottom: 5px;
+}
+
+.skill-bars .bar .info span {
+  font-weight: 500;
+  font-size: 20px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+
+.skill-bars .bar .progress-line {
+  height: 5px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05),
+    0 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #e1a34c;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line.html span {
+  width: 90%;
+}
+
+.bar .progress-line.css span {
+  width: 60%;
+}
+
+.bar .progress-line.jquery span {
+  width: 85%;
+}
+
+.bar .progress-line.python span {
+  width: 50%;
+}
+
+.bar .progress-line.mysql span {
+  width: 75%;
+}
+
+.progress-line span::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.progress-line span::after {
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 20px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+
+.progress-line.html span::after {
+  content: "90%";
+}
+
+.progress-line.css span::after {
+  content: "60%";
+}
+
+.progress-line.jquery span::after {
+  content: "85%";
+}
+
+.progress-line.python span::after {
+  content: "50%";
+}
+
+.progress-line.mysql span::after {
+  content: "75%";
+}
+
+/*skill progress section finished*/
+/**************************************/
+/*block and services section started*/
+.services {
+  background-color: #152136;
+}
+
+.block-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  background-color: #152136;
+
+}
+
+.block-section .box {
+  width: 360px;
+  height: 360px;
+  padding: 50px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  background-color: #19273e;
+  color: #fff;
+  margin: 2px;
+
+}
+
+.block-section .box:hover {
+  border-bottom: 2px solid #e1a34c;
+  transition: 0.3s;
+  background-color: #131f33;
+  color: #e1a34c;
+}
+
+.block-section .box .fa-solid {
+  font-size: 50px;
+  color: white;
+  opacity: 0.5;
+  padding-bottom: 30px;
+}
+
+.block-section .box h3 {
+
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+
+}
+
+.block-section .box p {
+  color: #fff;
+  opacity: 0.5;
+  text-transform: capitalize;
+  padding-bottom: 18px;
+  line-height: 23px;
+}
+
+/*block  services section finished*/
+/*************************************/
+/*hire me section started*/
+.hire-me {
+  padding: 80px;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hire-me h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.hire-me span {
+  opacity: 0.5;
+}
+
+.hire-me #hire-me-btn {
+  padding: 15px 40px 15px 40px;
+  background-color: #e1a34c;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 18px;
+  text-transform: capitalize;
+
+}
+
+.hire-me #hire-me-btn:hover {
+  background: none;
+  border: 1px solid rgb(153, 149, 149);
+}
+
+/*hire me section finished*/
+/**********************************/
+/*portofolio card slider section started*/
+.portofolio {
+  overflow: hidden;
+}
+
+.container {
+  padding: 80px 0;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 300px;
+  height: 400px;
+  margin-left: 3px;
+  position: relative;
+  margin:0px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide .myslides .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  background-color: #e1a34c;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+.swiper-slide .myslides .hover .fa-plus {
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 300;
+  display: none;
+}
+
+.swiper-slide .myslides:hover .hover {
+  height: 300px;
+  transition: 0.5s;
+
+}
+
+.swiper-slide .myslides:hover .hover .fa-plus {
+  display: block;
+
+}
+
+.myslides h3{
+  color:white;
+  text-transform:capitalize;
+  padding: 10px;
+}
+.myslides p{
+  color: white;
+  text-transform: capitalize;
+  padding: 10px;
+  font-weight: 300;
+  opacity: 0.5;
+}
+.img-box img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+.pagination {
+  margin-top: -50px;
+  text-align: center;
+
+}
+
+.pagination button {
+  font-size: 18px;
+  padding: 5px 10px;
+  background: none;
+  background-color: #e1a34c;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-weight: lighter;
+  margin: 6px;
+}
+
+/*portofolio card slider section finished*/
+/*************************************************/
+/*testimonial design started*/
+.testimonial {
+  padding: 80px 50px;
+  position: relative;
+}
+
+.testimonial h1 {
+  font-size: 55px;
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 15px;
+
+}
+
+.name-design-self-testimonial .line {
+  width: 20px;
+  height: 50px;
+  margin-top: -40px;
+  border-bottom: 2px solid #e1a34c;
+  margin-right: 15px;
+
+}
+
+.name-design-self-testimonial {
+  align-items: left;
+  justify-content: left;
+}
+
+.name-design-self-testimonial h4 {
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 0.5em;
+  padding-bottom: 15px;
+}
+
+.testimonial .mySlidesTest {
+  padding: 50px;
+  max-width: 80%;
+  margin: auto;
+  position: relative;
+
+
+}
+
+.testimonial .mySlidesTest p {
+  color: white;
+  font-size: 22px;
+  padding: 20px;
+  line-height: 1.5em;
+  word-spacing: 5px;
+}
+
+.testimonial .mySlidesTest .profile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonial .mySlidesTest .profile .content {
+  text-align: left;
+  margin-top: 30px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.testimonial .mySlidesTest .profile .content h3 {
+  font-size: 25px;
+  font-weight: 400;
+  padding-left: 13px;
+}
+
+.testimonial .mySlidesTest .profile .content p {
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: -15px;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.testimonial .mySlidesTest .profile .img-box img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid #19273e;
+}
+
+.testimonial .mySlidesTest .symbol .fa-quote-left {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  color: white;
+  font-size: 80px;
+  opacity: 0.5;
+}
+
+.dot-container {
+  width: 50px;
+  ;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+}
+
+.dot-container .dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 5px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+  transition: 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.slideshow-container {
+  position: relative;
+  padding-top: 80px;
+}
+
+/*testimonial design finished*/
+/****************************/
+/*contact form design start*/
+
+.contact {
+  padding-top: 50px;
+
+}
+
+.contact .contact-form {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 50px;
+}
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  ;
+  text-transform: capitalize;
+  border-bottom: 1px solid #717171;
+  transition: 0.3s;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact .contact-form input:hover,
+.contact .contact-form textarea:hover {
+  border-bottom: 1px solid #e1a34c;
+  transition: 0.3s;
+}
+
+.contact .contact-form #fname,
+.contact .contact-form #email {
+  width: 348px;
+  padding: 15px;
+  margin-bottom: 20px;
+
+}
+
+.contact .contact-form #subject,
+.contact .contact-form #massage {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.contact .contact-form .button-area #submit {
+  padding: 18px 70px;
+  font-size: 16px;
+  background: none;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #e1a34c;
+  font-size: 18px;
+}
+
+.contact .contact-form .button-area #submit:hover {
+  border: 1px solid #717171;
+  background-color: #131f33;
+
+}
+
+/*contact form design finish*/
+/******************************/
+/*footer bdesign start*/
+footer {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+footer .footer-content {
+  display: flex;
+  color: #fff;
+  align-items: center;
+
+
+}
+
+footer .footer-content .fa-brands,
+footer .footer-content .fa-solid {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 15px;
+}
+
+footer .footer-content h1 {
+  text-transform: capitalize;
+  margin-right: 30px;
+}
+
+footer .copyright h3 {
+  color: white;
+  opacity: 0.5;
+}
+
+.copyright h3 {
+  padding: 15px;
+  text-align: center;
+}
